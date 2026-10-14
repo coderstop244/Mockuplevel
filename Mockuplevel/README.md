@@ -1,6 +1,6 @@
-# StudyPulse AI - Multimodal Study Companion
+# Mockuplevel - Multimodal Study Companion
 
-An intelligent, multimodal paired study companion and active-recall platform. StudyPulse AI synchronizes lecture video playback, speech-to-text transcripts, visual keyframe slide decks, and OCR-extracted document knowledge bases with an AI-powered conversational study companion featuring exact timestamp citations.
+An intelligent, multimodal paired study companion and active-recall platform. Mockuplevel synchronizes lecture video playback, speech-to-text transcripts, visual keyframe slide decks, and OCR-extracted document knowledge bases with an AI-powered conversational study companion featuring exact timestamp citations.
 
 ---
 

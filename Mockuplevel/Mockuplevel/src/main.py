@@ -1,4 +1,4 @@
-"""Multimodal Study Companion Application Entry Point and API routes."""
+"""Mockuplevel application entry point and API routes."""
 from __future__ import annotations
 
 import os
@@ -25,7 +25,7 @@ from src.pipeline.chunker import EmbeddingChunker
 from src.pipeline.doc_processor import DocumentProcessor
 
 app = FastAPI(
-    title="StudyPulse AI - Multimodal Study Companion API",
+    title="Mockuplevel - Multimodal Study Companion API",
     description="High-performance backend API and study workspace",
     version="1.0.0"
 )
@@ -131,7 +131,7 @@ def serve_frontend():
     index_file = STATIC_DIR / "index.html"
     if index_file.exists():
         return FileResponse(index_file)
-    return HTMLResponse("<h1>StudyPulse AI Frontend Initializing...</h1>")
+    return HTMLResponse("<h1>Mockuplevel Frontend Initializing...</h1>")
 
 
 # -----------------------------
@@ -762,7 +762,7 @@ def study_chat(payload: ChatRequest):
             base_url=settings.OPENAI_BASE_URL or None,
         )
         system_prompt = (
-            "You are StudyPulse AI, an academic tutor. Answer only from the supplied "
+            "You are Mockuplevel, an academic tutor. Answer only from the supplied "
             "study material. If the material does not answer the question, say so "
             "clearly instead of guessing. Cite the supplied timestamp or page markers "
             "when you use them. Use concise markdown with clear explanations."

@@ -1,5 +1,5 @@
 /**
- * StudyPulse AI - Multimodal Study Companion Frontend Application
+ * Mockuplevel - Multimodal Study Companion Frontend Application
  */
 
 const App = {
@@ -17,7 +17,7 @@ const App = {
     chatMessages: [
       {
         role: 'assistant',
-        content: `### 👋 Welcome to StudyPulse AI!
+        content: `### 👋 Welcome to Mockuplevel!
 I am your Multimodal Study Companion. I have analyzed your lecture materials, transcripts, and visual slides.
 
 **What I can do for you:**
