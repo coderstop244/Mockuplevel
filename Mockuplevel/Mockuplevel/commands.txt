@@ -1,0 +1,24 @@
+Using UV for instead of traditional env (study-Hitesh sir)
+Commands
+1.pip install uv
+2.uv sync//syncs my project.tomal file with yours
+3.uv lock --upgrade//will upgrade all ur dpendancy versions
+//testing docker redis in docker
+docker run -d -p 6379:6379 --name redis-server redis:alpine
+
+//run celery worker
+In differnet terminal run the celery worker
+celery -A src.tasks.celery_worker.celery_app worker --loglevel=info
+
+//command to add .env in gitignore
+echo ".env" >> .gitignore
+
+//Quick verification
+cat .gitignore
+
+//install tesseract in your device
+winget install --id UB-Mannheim.TesseractOCR
+
+//run the frontend web application & API
+uvicorn src.main:app --reload --port 8000
+//open in browser: http://localhost:8000
